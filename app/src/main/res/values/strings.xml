@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">烧烤摊</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="follow" translatable="false">com.as.flypiyinsky.theformal.behavior.FabFollowListBehavior0</string>
+    <string name="follow1" translatable="false">com.as.flypiyinsky.theformal.behavior.FabFollowListBehavior1</string>
+</resources>

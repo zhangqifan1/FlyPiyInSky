@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".theformal.index.fragment.Lengfeng_Fragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coodinatorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_marginBottom="@dimen/x100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <include layout="@layout/tuozhailayout"/>
+
+        <!--: elevation和pressedTranslationZ，分别为普通状态下的阴影大小和点击时阴影的大小-->
+        <!--宽高包裹内容  百分百居中-->
+        <!--app:borderWidth="0dp 可以去除边框-->
+        <!--app:borderWidth="4dp"  不要这个 才有阴影-->
+        <android.support.design.widget.FloatingActionButton
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_marginBottom="@dimen/x50"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/hat"
+            app:borderWidth="0dp"
+            app:elevation="8dp"
+            app:fabSize="auto"
+            android:layout_marginRight="@dimen/x150"
+            app:layout_behavior="@string/follow"
+            app:pressedTranslationZ="16dp"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_marginBottom="@dimen/x50"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/hat"
+            app:borderWidth="0dp"
+            app:elevation="8dp"
+            app:fabSize="auto"
+            android:layout_marginLeft="@dimen/x150"
+            app:layout_behavior="@string/follow1"
+            app:pressedTranslationZ="16dp"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</layout>

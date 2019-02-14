@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8e62a0</color>
+    <color name="colorPrimaryDark">#8e62a0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="aaa">#f0f0</color>
+    <color name="white">#ffffff</color>
+
+    <color name="shapeline" >#3198e6</color>
+
+
+    /**************BottomNavigationViewEx*************/
+    <color name="selector_itemIcon_gray_color">#619be2</color>
+    <color name="selector_itemtext_gray_color">#0a0a0a</color>
+
+
+
+    /**************Shimmmer*************/
+    <color name="shimmer_background_color">#b1b1b1</color>
+
+
+
+</resources>

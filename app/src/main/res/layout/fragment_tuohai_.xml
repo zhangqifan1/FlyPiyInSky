@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".theformal.index.fragment.Tuohai_Fragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.as.flypiyinsky.thirdview.zhifubao_head.APHeaderView
+            android:id="@+id/alipay_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.as.flypiyinsky.thirdview.zhifubao_head.APSnapView
+                android:id="@id/alipay_snap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f0f0"
+                    android:gravity="center"
+                    android:text="我是内容内容可以自定义,一会我就盖上去,嘿嘿"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </com.as.flypiyinsky.thirdview.zhifubao_head.APSnapView>
+
+            <LinearLayout
+                android:id="@+id/alipay_grid_menu"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="#f050f0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="不盖上去,只是顶上去,,可以当RecyclerView首条目,俺可以是广告" />
+
+            </LinearLayout>
+
+            <com.as.flypiyinsky.thirdview.zhifubao_head.APBarView
+                android:id="@id/alipay_bar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <LinearLayout
+                    android:id="@+id/bar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvXianshi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ff0"
+                        android:gravity="center"
+                        android:text="顶上去会显示" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#f00"
+                        android:gravity="center"
+                        android:text="顶上去会隐藏" />
+                </LinearLayout>
+
+
+            </com.as.flypiyinsky.thirdview.zhifubao_head.APBarView>
+
+        </com.as.flypiyinsky.thirdview.zhifubao_head.APHeaderView>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler"
+                app:layout_behavior="com.as.flypiyinsky.thirdview.zhifubao_head.APScrollingBehavior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</layout>

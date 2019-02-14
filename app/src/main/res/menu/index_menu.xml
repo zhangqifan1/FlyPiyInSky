@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icon1"
+        android:checked="true"
+        android:icon="@drawable/icon_beibao"
+        android:title="背包" />
+    <item
+        android:id="@+id/icon2"
+        android:icon="@drawable/icon_caidao"
+        android:title="砍刀" />
+
+    <item
+        android:id="@+id/icon3"
+        android:icon="@drawable/icon_chuifengji"
+        android:title="冷风" />
+    <item
+        android:id="@+id/icon4"
+        android:icon="@drawable/icon_tuoxie"
+        android:title="拖孩" />
+</menu>
